@@ -13,6 +13,7 @@
 
 .header {
   position: fixed;
+  top: 0;
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -32,6 +33,7 @@
   text-decoration: none;
   color: var(--menu-color);
   padding: 10px 20px;
+  text-transform: uppercase;
 }
 
 .main {
@@ -49,6 +51,7 @@
   display: flex;
   justify-content: center;
   font-size: 30px;
+  text-transform: capitalize;
 }
 
 @media all and (min-width: 768px) {
@@ -61,7 +64,6 @@
     font-size: 40px;
   }
   .logo {
-    transform: translate(0, 0) padding;
     padding: 20px 0 20px 30px;
   }
   .link {
